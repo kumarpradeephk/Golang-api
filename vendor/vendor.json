@@ -1,0 +1,121 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "QeKwBtN2df+j+4stw3bQJ6yO4EY=",
+			"path": "github.com/gin-contrib/sse",
+			"revision": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae",
+			"revisionTime": "2017-01-09T09:34:21Z"
+		},
+		{
+			"checksumSHA1": "YhkptCfM7E4380A+45N3dYqCNZA=",
+			"path": "github.com/gin-gonic/gin",
+			"revision": "cce49582d617333c72f4d86abd8ef0e62eb778a0",
+			"revisionTime": "2018-12-05T05:49:03Z"
+		},
+		{
+			"checksumSHA1": "7qBnth8sypvrAOw4bDQcgS3tU+o=",
+			"path": "github.com/gin-gonic/gin/binding",
+			"revision": "cce49582d617333c72f4d86abd8ef0e62eb778a0",
+			"revisionTime": "2018-12-05T05:49:03Z"
+		},
+		{
+			"checksumSHA1": "Y8Vu2NT4c2ve963fedBxoJyiU6s=",
+			"path": "github.com/gin-gonic/gin/internal/json",
+			"revision": "cce49582d617333c72f4d86abd8ef0e62eb778a0",
+			"revisionTime": "2018-12-05T05:49:03Z"
+		},
+		{
+			"checksumSHA1": "afLqBfX9SeIP6eeTZb3WwdTFaOo=",
+			"path": "github.com/gin-gonic/gin/render",
+			"revision": "cce49582d617333c72f4d86abd8ef0e62eb778a0",
+			"revisionTime": "2018-12-05T05:49:03Z"
+		},
+		{
+			"checksumSHA1": "IkLitEJNZjFeTzwPzYVZF5/TJsc=",
+			"path": "github.com/go-sql-driver/mysql",
+			"revision": "60d456a402782453be397030407e34decaf04d73",
+			"revisionTime": "2018-12-02T17:10:36Z"
+		},
+		{
+			"checksumSHA1": "Y2MOwzNZfl4NRNDbLCZa6sgx7O0=",
+			"path": "github.com/golang/protobuf/proto",
+			"revision": "1d3f30b51784bec5aad268e59fd3c2fc1c2fe73f",
+			"revisionTime": "2018-11-28T19:23:52Z"
+		},
+		{
+			"checksumSHA1": "BVLcEDQelqXp6x9u4mbrxE7rxKs=",
+			"path": "github.com/jinzhu/gorm",
+			"revision": "472c70caa40267cb89fd8facb07fe6454b578626",
+			"revisionTime": "2018-11-03T14:14:39Z"
+		},
+		{
+			"checksumSHA1": "eECxSkwh0WmhLwaxHfkvcLOWS08=",
+			"path": "github.com/jinzhu/gorm/dialects/mysql",
+			"revision": "472c70caa40267cb89fd8facb07fe6454b578626",
+			"revisionTime": "2018-11-03T14:14:39Z"
+		},
+		{
+			"checksumSHA1": "4eelJOSLZoDzLuaJvgilOBVNovU=",
+			"path": "github.com/jinzhu/inflection",
+			"revision": "04140366298a54a039076d798123ffa108fff46c",
+			"revisionTime": "2018-03-08T03:36:59Z"
+		},
+		{
+			"checksumSHA1": "GiVgQkx5acnq+JZtYiuHPlhHoso=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "3fb116b820352b7f0c281308a4d6250c22d94e27",
+			"revisionTime": "2018-08-30T10:17:45Z"
+		},
+		{
+			"checksumSHA1": "mGwz6JVTgw5Cb8vQFTSK/YAdUcI=",
+			"path": "github.com/ugorji/go/codec",
+			"revision": "e72634d4d386b3c7bad60db1db133e72765d9299",
+			"revisionTime": "2018-12-06T14:47:55Z"
+		},
+		{
+			"checksumSHA1": "pTwIaJd0uLAGUfAv0kHVPzRA/so=",
+			"path": "golang.org/x/lint",
+			"revision": "c67002cb31c3a748b7688c27f20d8358b4193582",
+			"revisionTime": "2018-10-11T21:19:06Z"
+		},
+		{
+			"checksumSHA1": "543dY7RKJCSNiqYONDu1O2aD8s8=",
+			"path": "golang.org/x/lint/golint",
+			"revision": "c67002cb31c3a748b7688c27f20d8358b4193582",
+			"revisionTime": "2018-10-11T21:19:06Z"
+		},
+		{
+			"checksumSHA1": "LHHkpIoYHpQiBc7y0JaTmf3VbVQ=",
+			"path": "golang.org/x/tools/go/ast/astutil",
+			"revision": "150d8ac28524ccbf76b28c54cc349359fc77060e",
+			"revisionTime": "2018-11-09T21:12:25Z"
+		},
+		{
+			"checksumSHA1": "9t0JXT9GjzJ/iO8iEeF4vmXVWfs=",
+			"path": "golang.org/x/tools/go/gcexportdata",
+			"revision": "150d8ac28524ccbf76b28c54cc349359fc77060e",
+			"revisionTime": "2018-11-09T21:12:25Z"
+		},
+		{
+			"checksumSHA1": "j/pptvqymwNIb1NW6ZgTbOfxKtA=",
+			"path": "golang.org/x/tools/go/internal/gcimporter",
+			"revision": "150d8ac28524ccbf76b28c54cc349359fc77060e",
+			"revisionTime": "2018-11-09T21:12:25Z"
+		},
+		{
+			"checksumSHA1": "P/k5ZGf0lEBgpKgkwy++F7K1PSg=",
+			"path": "gopkg.in/go-playground/validator.v8",
+			"revision": "5f1438d3fca68893a817e4a66806cea46a9e4ebf",
+			"revisionTime": "2017-07-30T05:02:35Z"
+		},
+		{
+			"checksumSHA1": "QqDq2x8XOU7IoOR98Cx1eiV5QY8=",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "51d6538a90f86fe93ac480b35f37b2be17fef232",
+			"revisionTime": "2018-11-15T11:05:04Z"
+		}
+	],
+	"rootPath": "myworkspace/firstApp"
+}
