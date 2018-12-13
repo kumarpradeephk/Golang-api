@@ -14,19 +14,19 @@ func Start() {
   controllers.Db = ConnectDb()
   migrateDb()
   
-  v1 := router.Group("/api/v1/users")
+  r1 := router.Group("/api/v1/users")
   {
-    v1.GET("/", controllers.GetAllUser)
-    v1.GET("/:id", controllers.GetProfile)
-    v1.PUT("/:id", controllers.UpdateUser)
-    v1.DELETE("/:id", controllers.DeleteUser)
+    r1.GET("/", controllers.GetAllUser)
+    r1.GET("/:id", controllers.GetProfile)
+    r1.PUT("/:id", controllers.UpdateUser)
+    r1.DELETE("/:id", controllers.DeleteUser)
   }
 
-  v2 := router.Group("/api/v2/auth")
+  r2 := router.Group("/api/v1/auth")
   {
-    v2.POST("signup/", controllers.SignUp)
-    v2.POST("login/", controllers.LogIn)
-    v2.DELETE("logout/", controllers.LogOut)
+    r2.POST("signup/", controllers.SignUp)
+    r2.POST("login/", controllers.LogIn)
+    r2.DELETE("logout/", controllers.LogOut)
   }
   router.Run(":4000")
 }
