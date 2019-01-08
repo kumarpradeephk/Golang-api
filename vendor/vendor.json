@@ -63,6 +63,12 @@
 			"revisionTime": "2018-03-08T03:36:59Z"
 		},
 		{
+			"checksumSHA1": "DKQEqsWN99dRCtTE0faNV+s5cCw=",
+			"path": "github.com/kjk/betterguid",
+			"revision": "c442874ba63a7beb6c8b6f14ad1675de747b7f71",
+			"revisionTime": "2017-06-21T09:14:30Z"
+		},
+		{
 			"checksumSHA1": "GiVgQkx5acnq+JZtYiuHPlhHoso=",
 			"path": "github.com/mattn/go-isatty",
 			"revision": "3fb116b820352b7f0c281308a4d6250c22d94e27",
