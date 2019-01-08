@@ -1,1 +1,1 @@
-release: go run server.go
+release: go build
