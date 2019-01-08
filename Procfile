@@ -1,1 +1,1 @@
-release: go build
+web: firstApp
