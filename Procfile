@@ -1,1 +1,1 @@
-web: firstApp
+release: go run server.go
